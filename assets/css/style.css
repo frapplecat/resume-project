@@ -392,6 +392,12 @@ div#map {
 /* Media Queries */
 
 @media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+    
     .center-form {
         padding-top: 30px;
         min-height: 240px;
